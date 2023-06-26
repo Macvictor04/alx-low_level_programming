@@ -5,18 +5,13 @@
  * main - entry point
  * Return:0
  */
-
 int main(void)
 {
-	int n = '0';
+	int i;
 
-	while (n < 10)
-	{
-		putchar(n);
-	      n++;
-	}
-	      putchar('\n');
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+		printf("\n");
 
-	      return (0);
-
+	return (0);
 }

@@ -1,21 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
+ * main- Entry point
+ * @void: Null value
  *
- * Return: Always 0 (Success)
+ * Description: Print numbers of base 16
+ * Return: Zero value
  */
+
 int main(void)
 {
-	int d;
-	char low;
+	char c;
+	int n;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
-		putchar('\n');
-
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	for (c = 'a'; c <= 'f'; c++)
+		putchar(c);
+	putchar('\n');
 	return (0);
 }
